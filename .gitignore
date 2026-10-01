@@ -1,0 +1,26 @@
+# Arquivos de trava (Lock files) da Cadence
+*.cdslck
+
+# Logs e históricos
+*.log*
+*.logv*
+*.cdsinit*
+pvs.log*
+ext.log*
+
+# Simulação e saídas temporárias (Spectre/Ocean/Simulations)
+simulations/
+spectre.out
+runObjDir/
+*.raw/
+*.vcd
+*.fsdb
+
+# Arquivos temporários e backups de editores
+*~
+#*#
+.DS_Store
+
+# Evita subir a pasta de trabalho/cache da ferramenta
+cds.lib.bak
+lib.defs.bak

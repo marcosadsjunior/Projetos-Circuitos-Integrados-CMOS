@@ -1,0 +1,7 @@
+SOFTINCLUDE /opt/cadence/IC231/share/cdssetup/cds.lib
+INCLUDE /opt/GPDK045/gpdk045_v_6_0/cds.lib
+#Removed by ddDeleteObj: DEFINE teste /home/alunos/Desktop/thiago-pcid/teste
+#DEFINE curves /home/alunos/Desktop/thiago-pcid/curves
+DEFINE curves /home/alunos/Desktop/marcos_242037995/lab2/curves
+DEFINE inversor /home/alunos/marcos_242037995/lab2/inversor
+#Removed by ddDeleteObj: DEFINE inv_testbench /home/alunos/marcos_242037995/lab2/inv_testbench
