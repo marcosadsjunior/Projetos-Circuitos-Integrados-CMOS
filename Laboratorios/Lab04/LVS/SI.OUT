@@ -1,0 +1,79 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+
+Running simulation in directory: "/home/alunos/marcos_242037995/lab4/LVS/".
+
+*WARNING* LIB analogLib from File /opt/GPDK045/gpdk045_v_6_0/cds.lib Line 3 redefines
+LIB analogLib from File /opt/cadence/IC231/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+Insert UNDEFINE analogLib
+before DEFINE analogLib
+    in /opt/GPDK045/gpdk045_v_6_0/cds.lib
+Or remove or comment out DEFINE analogLib
+    in /opt/cadence/IC231/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+to suppress this warning message.
+*WARNING* LIB basic from File /opt/GPDK045/gpdk045_v_6_0/cds.lib Line 4 redefines
+LIB basic from File /opt/cadence/IC231/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+Insert UNDEFINE basic
+before DEFINE basic
+    in /opt/GPDK045/gpdk045_v_6_0/cds.lib
+Or remove or comment out DEFINE basic
+    in /opt/cadence/IC231/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+to suppress this warning message.
+*WARNING* '/opt/GPDK045/gpdk045_v_6_0/cds.lib', Line 5: path /opt/cadence/IC231/tools.lnx86/dfII/etc/cdslib/sheets/US_8ths already belongs to LIB US_8ths.
+*WARNING* The directory: '/home/alunos/Desktop/marcos_242037995/lab2/curves' does not exist
+	but was defined in libFile '/home/alunos/marcos_242037995/lab4/cds.lib' for Lib 'curves'.
+*WARNING* LIB analogLib from File /opt/GPDK045/gpdk045_v_6_0/cds.lib Line 3 redefines
+LIB analogLib from File /opt/cadence/IC231/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+Insert UNDEFINE analogLib
+before DEFINE analogLib
+    in /opt/GPDK045/gpdk045_v_6_0/cds.lib
+Or remove or comment out DEFINE analogLib
+    in /opt/cadence/IC231/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+to suppress this warning message.
+*WARNING* LIB basic from File /opt/GPDK045/gpdk045_v_6_0/cds.lib Line 4 redefines
+LIB basic from File /opt/cadence/IC231/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+Insert UNDEFINE basic
+before DEFINE basic
+    in /opt/GPDK045/gpdk045_v_6_0/cds.lib
+Or remove or comment out DEFINE basic
+    in /opt/cadence/IC231/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+to suppress this warning message.
+*WARNING* '/opt/GPDK045/gpdk045_v_6_0/cds.lib', Line 5: path /opt/cadence/IC231/tools.lnx86/dfII/etc/cdslib/sheets/US_8ths already belongs to LIB US_8ths.
+*WARNING* The directory: '/home/alunos/Desktop/marcos_242037995/lab2/curves' does not exist
+	but was defined in libFile '/home/alunos/marcos_242037995/lab4/cds.lib' for Lib 'curves'.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 6.0 (09-September-2019)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+Loading hnlInit.cxt 
+Running Artist Hierarchical Netlisting ...
+End netlisting Oct  8 09:13:46 2026
+
+Running simin
+
+Running runSim()...
+
+
+Running runsim with simulator: "auCdl"
+Begin simulation:    Oct  8 09:13:46 2026
+
+auCdl netlisting completed
+End simulation:      Oct  8 09:13:46 2026
+INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.

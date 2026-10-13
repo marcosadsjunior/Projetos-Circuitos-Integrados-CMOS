@@ -1,0 +1,76 @@
+*
+*
+*
+*                       LINUX           Thu Oct  8 09:19:33 2026
+*
+*
+*
+*  PROGRAM  advgen
+*
+*  Name           : advgen - Quantus - (64-bit)
+*  Version        : 23.1.1-p051
+*  Build Date     : Thu Feb 15 21:11:17 PST 2024
+*
+*  HSPICE LIBRARY
+*
+* GLOBAL_TEMPERATURE 25
+*  OPERATING_TEMPERATURE 25
+*  QRC_TECH_DIR /opt/GPDK045/gpdk045_v_6_0/qrc/rcworst 
+*
+*!LENGTH_UNITS METERS
+*
+*
+*
+
+*
+.SUBCKT inv gnd! in out vdd!
+*
+*
+*  caps2d version: 10
+*
+*
+*       TRANSISTOR CARDS
+*
+*
+MMNM0	out#2	in#4	gnd!#1	gnd!	g45n1svt	L=4.5e-08
++ W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ fw=1.2e-07 sa=1.4e-07 sb=1.4e-07 sca=24.072 scb=0.023955 scc=0.00283708
+MMPM0	out#3	in#1	vdd!#1	vdd!	g45p1svt	L=4.5e-08
++ W=1.45e-07
++ AD=2.03e-14	AS=2.03e-14	PD=5.7e-07	PS=5.7e-07
++ fw=1.45e-07 sa=1.4e-07 sb=1.4e-07 sca=57.6995 scb=0.0663826 scc=0.00620487
+*
+*
+*       RESISTOR AND CAP/DIODE CARDS
+*
+Rk1	in#3	in	54.195694	$metal1_conn	$X=0.1675 $Y=0.54
+Rk2	vdd!	vdd!#2	0.146324	$metal1_conn	$X=0.5445 $Y=1.0775
+Rk4	vdd!#1	vdd!#2	74.400002	$metal1_conn	$X=0.465 $Y=0.795
+Rk5	gnd!	gnd!#2	0.192600	$metal1_conn	$X=0.5245 $Y=0.06
+Rk7	gnd!#1	gnd!#2	90.000000	$metal1_conn	$X=0.465 $Y=0.34
+Rk8	out	out#1	0.283233	$metal1_conn	$X=0.902 $Y=0.57
+Rk9	out#1	out#2	90.175339	$metal1_conn	$X=0.67 $Y=0.455
+Rk10	out#1	out#3	74.573242	$metal1_conn	$X=0.67 $Y=0.6825
+Rl1	in#1	in#2	82.030441	$poly_conn	$X=0.5675 $Y=0.6455
+Rl2	in#2	in#3	68.614944	$poly_conn	$X=0.455 $Y=0.54
+Rl3	in#2	in#4	63.083076	$poly_conn	$X=0.5675 $Y=0.455
+*
+*       CAPACITOR CARDS
+*
+*
+C1	in	gnd!	cmodel	2.51324e-17	$X=0.113 $Y=0.539
+C2	out	gnd!	cmodel	2.53301e-17	$X=1.0185 $Y=0.569
+C3	vdd!	gnd!	cmodel	7.77341e-17	$X=0.51 $Y=0.9225
+C4	in#1	gnd!	cmodel	3.0727e-17	$X=0.567 $Y=0.8045
+C5	in#4	gnd!	cmodel	2.80241e-17	$X=0.567 $Y=0.317
+C6	in#3	gnd!	cmodel	6.23153e-17	$X=0.285 $Y=0.539
+C7	out#3	gnd!	cmodel	4.32891e-17	$X=0.6645 $Y=0.782
+C8	out#2	gnd!	cmodel	3.20497e-17	$X=0.6645 $Y=0.353
+C9	vdd!#2	gnd!	cmodel	6.38753e-17	$X=0.393 $Y=0.8135
+C10	out#1	gnd!	cmodel	3.59144e-17	$X=0.6695 $Y=0.5675
+C11	in#2	gnd!	cmodel	1.68206e-17	$X=0.567 $Y=0.5495
+*
+*
+.ENDS inv
+*

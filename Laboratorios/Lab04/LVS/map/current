@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "inv"
+  repList "auCdl schematic cmos_sch"
+  stopList "auCdl"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/alunos/marcos_242037995/lab4/LVS/"
+ )
+( model
+( "inversor/inv/schematic" "inv" )
+ )
+( "inv" "ihnl/cds0/map" )
+ )

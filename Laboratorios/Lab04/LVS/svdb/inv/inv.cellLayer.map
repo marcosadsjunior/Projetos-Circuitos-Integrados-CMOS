@@ -1,0 +1,3 @@
+pmos1v_CDNS_791461621820 ndiff_conn,ntap,nwell_conn,poly_conn,_pmos1v,metal1_conn,cont_pdiff,psubstrate,cont_ndiff,pdiff_conn NULL
+nmos1v_CDNS_791461621821 ndiff_conn,poly_conn,ptap,_nmos1v,metal1_conn,cont_pdiff,psubstrate,cont_ndiff,pdiff_conn NULL
+inv nwell_conn,cont_poly,poly_conn,metal1_conn,psubstrate ndiff_conn,ntap,_pmos1v,ptap,_nmos1v,cont_pdiff,cont_ndiff,pdiff_conn

@@ -1,0 +1,47 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : inv.rep
+ERC Summary File         : inv.sum
+LVS Comparison Report    : inv.rep.cls
+LVS Softchk Report       : inv.softchk
+Layout Name              : /home/alunos/marcos_242037995/lab4/LVS/inv.gds ("inv")
+User Name                : alunos
+Creation Time            : Thu Oct  8 09:13:55 2026
+Current directory        : /home/alunos/marcos_242037995/lab4/LVS
+PVS Version              : 23.11-s036 Wed Jan 17 18:11:41 PST 2024
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK psubstrate -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nwell_conn -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK Nburied -TYPE CONTACT   Total Result        0 (       0)
+
+Warnings and errors of connectivity for cell "pmos1v_CDNS_791461621820"
+-----------------------------------------------------------------------
+
+[WARN] Different labels for net 2, it is assigned to "B":
+    [1] Label "B" on layer 1064(metal1_conn_text) at (-0.150, 0.072)
+    [2] Label "B" on layer 10645(nwell_conn_text) at (-0.048, 0.072)
+    [3] Label "B" on layer 10765(nwell_label) at (-0.048, 0.072)
+    [4] Label "B" on layer 10875(nwell_pin) at (-0.048, 0.072)
+    [5] Label "S_source_0" on layer 1064(metal1_conn_text) at (-0.150, 0.072)
+
+
+Warnings and errors of connectivity for cell "nmos1v_CDNS_791461621821"
+-----------------------------------------------------------------------
+
+[WARN] Different labels for net 2, it is assigned to "B":
+    [1] Label "B" on layer 1064(metal1_conn_text) at (-0.150, 0.060)
+    [2] Label "S_source_0" on layer 1064(metal1_conn_text) at (-0.150, 0.060)
+

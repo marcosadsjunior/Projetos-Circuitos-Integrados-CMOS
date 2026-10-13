@@ -1,0 +1,38 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  inversor
+* Top Cell Name: inv
+* View Name:     schematic
+* Netlisted on:  Oct  8 09:13:46 2026
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.LDD
+*.SCALE METER
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: inversor
+* Cell Name:    inv
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv in out
+*.PININFO in:I out:O
+MNM0 out in gnd! gnd! g45n1svt m=1 l=45n w=120n
+MPM0 out in vdd! vdd! g45p1svt m=1 l=45n w=145n
+.ENDS
+

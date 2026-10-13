@@ -1,0 +1,25 @@
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII23.1-64b:IC23.1-64b.ISR9.24 12/10/24 15:20 (sjfdcl1126) $
+; sub-version 4.1_USR7_HF1
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; avParameter Section
+; Created by the Assura UI
+;----------------------------------------------------------------------------
+
+avParameters(
+  ?inputLayout ( "df2" "inversor" )
+  ?cellName "inv"
+  ?viewName "layout"
+  ?runName "inv_DRC"
+  ?workingDirectory "./DRC"
+  ?technology "gpdk045_av"
+  ?techLib "/opt/GPDK045/gpdk045_v_6_0/assura_tech.lib"
+  ?avrpt t
+  ?dbuPerUU 2000.0
+  ?flagNon45 t
+  ?flagOffGrid (0.005 1.0)
+  ?joinPins top
+)

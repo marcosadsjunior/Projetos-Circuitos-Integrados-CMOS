@@ -1,0 +1,11 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'inv layout inversor':
+  info: Assign pin label "gnd!" at (0.5650, 0.0300) to layer `metal1_conn'.
+  info: Assign pin label "in" at (0.0300, 0.5700) to layer `metal1_conn'.
+  info: Assign pin label "out" at (1.1050, 0.5700) to layer `metal1_conn'.
+  info: Assign pin label "vdd!" at (0.5650, 1.1150) to layer `metal1_conn'.
+
+***** End of Label Report *****
+

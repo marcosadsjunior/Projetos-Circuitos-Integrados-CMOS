@@ -1,0 +1,17 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometryAndText"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"inversor"
+logFile	"/home/alunos/marcos_242037995/lab4/LVS/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/alunos/marcos_242037995/lab4/LVS"
+strmFile	"/home/alunos/marcos_242037995/lab4/LVS/inv.gds"
+strmVersion	5
+techLib	"gpdk045"
+topCell	"inv"
+view	"layout"
+enableColoring
